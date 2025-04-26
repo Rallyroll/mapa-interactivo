@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto economía💸💸💸</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center; /* centrado horizontal */
+      align-items: center;     /* centrado vertical */
+      height: 100vh;           /* altura total de la pantalla */
+      margin: 0;
+      background-color: rgb(0, 255, 191);
+    }
+    .movil {
+      position: relative;
+      width: 40vw;
+      max-width: 300px;
+      aspect-ratio: 9/16;
+      background-color: black;
+      border: 2px solid black;
+      border-radius: 3em;
+      overflow: hidden;
+      padding: 70px 1px; /* Más espacio arriba y abajo */
+      box-sizing: border-box;
+      justify-content: space-between;
+    }
+    .pantalla {
+      background-color: red;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pantalla img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .boton {
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      top: 92%;
+      left: 50%;
+      transform: translate(-50%);
+      cursor: pointer;
+      background-color: rgb(73, 73, 73);
+      border-radius: 10px;
+    }
+    .boton:active {
+      transform: translate(-50%) scale(0.9);
+    }
+    .punto {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      transform: translate(-50%, -50%);
+      background-color: red;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s;
+    }
+    .punto:active {
+      transform: translate(-50%, -50%) scale(1.5);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="movil">
+    <div class="pantalla">
+      <img src="Mapa europa2.png" alt="Mapa de Europa">
+    </div>
+    <div class="punto" style="top: 75%; left:16%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 75%; left:56%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 75%; left:06%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 55%; left:56%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 60%; left:36%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 15%; left:26%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="boton" onclick="document.getElementById('audio2').play()"></div>
+  </div>
+
+  <audio id="audio1" src="https://www.soundjay.com/buttons/sounds/button-3.mp3"></audio>
+  <audio id="audio2" src="https://www.soundjay.com/buttons/sounds/button-30.mp3"></audio>
+</body>
+</html>
