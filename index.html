@@ -155,9 +155,9 @@
   <script>
     function verificar() {
       const clave = document.getElementById("clave").value;
-      const correcta = "1234"; // Puedes cambiarla aquí
+      const hash = btoa(clave);
 
-      if (clave === correcta) {
+      if (hash === "MTIzNA==") {
         document.getElementById("login").style.display = "none";
         document.getElementById("marcoLogin").style.display = "none";
         document.getElementById("contenido").style.display = "block";
