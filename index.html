@@ -13,16 +13,47 @@
       margin: 0;
       background-color: rgb(0, 255, 191);
     }
+
+    #login {
+      background: white;
+      height: 82%;
+      padding: 2.3em;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #login input[type="password"] {
+      padding: 0.5em;
+      margin-top: 3em;
+      width: 100%;
+    }
+
+    #login button {
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      cursor: pointer;
+    }
+
+    #error {
+      color: red;
+      margin-top: 0.5em;
+    }
+    
     .movil {
+      display: none;
       position: relative;
-      width: 40vw;
-      max-width: 300px;
+      height: 70vh;
+      max-width: 400px;
+      min-width: 200px;
       aspect-ratio: 9/16;
       background-color: black;
       border: 2px solid black;
       border-radius: 3em;
       overflow: hidden;
-      padding: 70px 1px; /* Más espacio arriba y abajo */
+      padding: 8vh 1px; /* Más espacio arriba y abajo */
       box-sizing: border-box;
       justify-content: space-between;
     }
@@ -70,20 +101,54 @@
 </head>
 
 <body>
-  <div class="movil">
+
+  <div id="marcoLogin" class="movil" style="display: block;">
+    <div id="login">
+      <h2>Ingresa la contraseña</h2>
+      <input type="password" id="clave" placeholder="Contraseña">
+      <br>
+      <button onclick="verificar()">Entrar</button>
+      <div id="error"></div>
+    </div>
+  </div>
+
+  <div id="contenido" class="movil">
     <div class="pantalla">
       <img src="Mapa europa2.png" alt="Mapa de Europa">
     </div>
     <div class="punto" style="top: 75%; left:16%" onclick="document.getElementById('audio1').play()"></div>
-    <div class="punto" style="top: 75%; left:56%" onclick="document.getElementById('audio1').play()"></div>
-    <div class="punto" style="top: 75%; left:06%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 71%; left:58%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 75%; left:02%" onclick="document.getElementById('audio1').play()"></div>
     <div class="punto" style="top: 55%; left:56%" onclick="document.getElementById('audio1').play()"></div>
     <div class="punto" style="top: 60%; left:36%" onclick="document.getElementById('audio1').play()"></div>
-    <div class="punto" style="top: 15%; left:26%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 25%; left:20%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 50%; left:32%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 48%; left:18%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 80%; left:87%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 63%; left:48%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 38%; left:52%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 42%; left:65%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 32%; left:80%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 50%; left:45%" onclick="document.getElementById('audio1').play()"></div>
+    <div class="punto" style="top: 54%; left:42%" onclick="document.getElementById('audio1').play()"></div>
     <div class="boton" onclick="document.getElementById('audio2').play()"></div>
   </div>
 
   <audio id="audio1" src="https://www.soundjay.com/buttons/sounds/button-3.mp3"></audio>
   <audio id="audio2" src="https://www.soundjay.com/buttons/sounds/button-30.mp3"></audio>
+  <script>
+    function verificar() {
+      const clave = document.getElementById("clave").value;
+      const correcta = "1234"; // Puedes cambiarla aquí
+
+      if (clave === correcta) {
+        document.getElementById("login").style.display = "none";
+        document.getElementById("marcoLogin").style.display = "none";
+        document.getElementById("contenido").style.display = "block";
+      } else {
+        document.getElementById("error").innerText = "Contraseña incorrecta";
+      }
+    }
+  </script>
 </body>
 </html>
