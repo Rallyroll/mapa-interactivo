@@ -1,0 +1,20 @@
+{
+    "España":{
+        "descripcion":"España es un país del suroeste de Europa.",
+        "bandera": "espana.png"
+    },
+    "Italia": "Italia es conocida por su arte, arquitectura y comida.",
+    "Portugal": "Portugal está ubicado en la península ibérica.",
+    "Alemania": "Alemania es una potencia económica en Europa.",
+    "Francia": "Francia es famosa por su cultura y gastronomía.",
+    "Islandia": "Islandia es conocida por su naturaleza volcánica.",
+    "Eslovenia": "Eslovenia combina montañas, bosques y lagos.",
+    "Irlanda": "Irlanda es una isla al noroeste de Europa.",
+    "Austria": "Austria es famosa por su música clásica y los Alpes.",
+    "Suiza": "Suiza es conocida por sus bancos, relojes y chocolate.",
+    "Noruega": "Noruega tiene fiordos espectaculares.",
+    "Suecia": "Suecia es un país escandinavo con mucha innovación.",
+    "Finlandia": "Finlandia es famosa por su sistema educativo.",
+    "Países Bajos": "Países Bajos es famoso por sus tulipanes y canales.",
+    "Dinamarca": "Dinamarca es conocida por ser uno de los países más felices."
+}
