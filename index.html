@@ -124,20 +124,20 @@
     <div class="pantalla">
       <img src="Mapa europa2.png" alt="Mapa de Europa">
     </div>
-    <div class="punto" style="top: 75%; left:16%" onclick="abrirPais('España', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 71%; left:58%" onclick="abrirPais('Italia', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 75%; left:02%" onclick="abrirPais('Portugal', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 55%; left:56%" onclick="abrirPais('Alemania', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 60%; left:36%" onclick="abrirPais('Francia', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 25%; left:20%" onclick="abrirPais('Islandia', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 50%; left:32%" onclick="abrirPais('Reino Unido', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 48%; left:18%" onclick="abrirPais('Irlanda', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 80%; left:87%" onclick="abrirPais('Grecia', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 63%; left:48%" onclick="abrirPais('Suiza', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 38%; left:52%" onclick="abrirPais('Noruega', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 42%; left:65%" onclick="abrirPais('Suecia', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 32%; left:80%" onclick="abrirPais('Finlandia', 'España es un país del suroeste de Europa.')"></div>
-    <div class="punto" style="top: 50%; left:45%" onclick="abrirPais('Paises Bajos', 'España es un país del suroeste de Europa.')"></div>
+    <div class="punto" style="top: 75%; left:16%" onclick="abrirPais('España', 'España es un país del suroeste de Europa.', 'España')"></div>
+    <div class="punto" style="top: 71%; left:58%" onclick="abrirPais('Italia', 'España es un país del suroeste de Europa.', 'Italia')"></div>
+    <div class="punto" style="top: 75%; left:02%" onclick="abrirPais('Portugal', 'España es un país del suroeste de Europa.', 'Portugal')"></div>
+    <div class="punto" style="top: 55%; left:56%" onclick="abrirPais('Alemania', 'España es un país del suroeste de Europa.', 'Alemania')"></div>
+    <div class="punto" style="top: 60%; left:36%" onclick="abrirPais('Francia', 'España es un país del suroeste de Europa.', 'Francia')"></div>
+    <div class="punto" style="top: 25%; left:20%" onclick="abrirPais('Islandia', 'España es un país del suroeste de Europa.', 'Islandia')"></div>
+    <div class="punto" style="top: 50%; left:32%" onclick="abrirPais('Reino Unido', 'España es un país del suroeste de Europa.', 'Eslovenia')"></div>
+    <div class="punto" style="top: 48%; left:18%" onclick="abrirPais('Irlanda', 'España es un país del suroeste de Europa.', 'Dinamarca')"></div>
+    <div class="punto" style="top: 80%; left:87%" onclick="abrirPais('Grecia', 'España es un país del suroeste de Europa.', 'Austria')"></div>
+    <div class="punto" style="top: 63%; left:48%" onclick="abrirPais('Suiza', 'España es un país del suroeste de Europa.', 'Suiza')"></div>
+    <div class="punto" style="top: 38%; left:52%" onclick="abrirPais('Noruega', 'España es un país del suroeste de Europa.', 'Noruega')"></div>
+    <div class="punto" style="top: 42%; left:65%" onclick="abrirPais('Suecia', 'España es un país del suroeste de Europa.', 'Suecia')"></div>
+    <div class="punto" style="top: 32%; left:80%" onclick="abrirPais('Finlandia', 'España es un país del suroeste de Europa.', 'Finlandia')"></div>
+    <div class="punto" style="top: 50%; left:45%" onclick="abrirPais('Paises Bajos', 'España es un país del suroeste de Europa.', Paises Bajos)"></div>
     <div class="punto" style="top: 54%; left:42%" onclick="abrirPais('Bélgica', 'España es un país del suroeste de Europa.')"></div>
     <div class="boton" onclick="document.getElementById('audio2').play()"></div>
   </div>
@@ -150,7 +150,21 @@
     </div>
   </div>
 
-  <audio id="audio1" src="Alemania.m4a"></audio>
+  <audio id="Alemania" src="Alemania.m4a"></audio>
+  <audio id="España" src="España.m4a"></audio>
+  <audio id="Italia" src="Italia.m4a"></audio>
+  <audio id="Francia" src="Francia.m4a"></audio>
+  <audio id="Islandia" src="Islandia.m4a"></audio>
+  <audio id="Irlanda" src="Irlanda.m4a"></audio>
+  <audio id="Noruega" src="Noruega.m4a"></audio>
+  <audio id="Suecia" src="Suiza.m4a"></audio>
+  <audio id="Finlandia" src="Finlandia.m4a"></audio>
+  <audio id="Eslovenia" src="Eslovenia.m4a"></audio>
+  <audio id="Suiza" src="Suiza.m4a"></audio>
+  <audio id="Portugal" src="Portugal.m4a"></audio>
+  <audio id="Dinamarca" src="Dinamarca.m4a"></audio>
+  <audio id="Austria" src="Austria.m4a"></audio>
+  <audio id="Países Bajos" src="Países Bajos.m4a"></audio>
   <audio id="audio2" src="https://www.soundjay.com/buttons/sounds/button-30.mp3"></audio>
   <script>
     function verificar() {
@@ -167,7 +181,7 @@
     }
 
     function abrirPais(nombre, info, audio) {
-      document.getElementById('audio1').play();
+      document.getElementById(audio).play();
       document.getElementById('contenido').style.display = 'none';
       document.getElementById('movilPais').style.display = 'block';
       document.getElementById('tituloPais').innerText = nombre;
