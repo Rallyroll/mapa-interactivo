@@ -1,7 +1,9 @@
 {
     "España":{
         "descripcion":"España es un país del suroeste de Europa.",
-        "bandera": "espana.png"
+        "bandera": "espana.png",
+        "poblacion": "48 Millones de personas",
+        "capital": "Madrid"
     },
     "Italia": "Italia es conocida por su arte, arquitectura y comida.",
     "Portugal": "Portugal está ubicado en la península ibérica.",
