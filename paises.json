@@ -1,22 +1,122 @@
 {
-    "España":{
-        "descripcion":"España es un país del suroeste de Europa.",
-        "bandera": "espana.png",
-        "poblacion": "48 Millones de personas",
-        "capital": "Madrid"
-    },
-    "Italia": "Italia es conocida por su arte, arquitectura y comida.",
-    "Portugal": "Portugal está ubicado en la península ibérica.",
-    "Alemania": "Alemania es una potencia económica en Europa.",
-    "Francia": "Francia es famosa por su cultura y gastronomía.",
-    "Islandia": "Islandia es conocida por su naturaleza volcánica.",
-    "Eslovenia": "Eslovenia combina montañas, bosques y lagos.",
-    "Irlanda": "Irlanda es una isla al noroeste de Europa.",
-    "Austria": "Austria es famosa por su música clásica y los Alpes.",
-    "Suiza": "Suiza es conocida por sus bancos, relojes y chocolate.",
-    "Noruega": "Noruega tiene fiordos espectaculares.",
-    "Suecia": "Suecia es un país escandinavo con mucha innovación.",
-    "Finlandia": "Finlandia es famosa por su sistema educativo.",
-    "Países Bajos": "Países Bajos es famoso por sus tulipanes y canales.",
-    "Dinamarca": "Dinamarca es conocida por ser uno de los países más felices."
+  "Alemania": {
+    "descripcion": "Alemania es una potencia económica ubicada en el centro de Europa.",
+    "bandera": "banderas/alemania.png",
+    "capital": "Berlín",
+    "población": "83M de personas",
+    "PIB": "4.305.260 M€",
+    "moneda": "Euro €"
+  },
+  "Austria": {
+    "descripcion": "Austria es un país alpino en Europa Central conocido por su patrimonio cultural.",
+    "bandera": "banderas/austria.png",
+    "capital": "Viena",
+    "población": "9M de personas",
+    "PIB": "481.940 M€",
+    "moneda": "Euro €"
+  },
+  "Dinamarca": {
+    "descripcion": "Dinamarca es un país nórdico con un alto nivel de vida.",
+    "bandera": "banderas/dinamarca.png",
+    "capital": "Copenhague",
+    "población": "6M de personas",
+    "PIB": "396.960 M€",
+    "moneda": "Corona danesa"
+  },
+  "Eslovenia": {
+    "descripcion": "Eslovenia es un pequeño país montañoso del sureste de Europa.",
+    "bandera": "banderas/eslovenia.png",
+    "capital": "Liubliana",
+    "población": "2M de personas",
+    "PIB": "66.968 M€",
+    "moneda": "Euro €"
+  },
+  "España": {
+    "descripcion": "España es un país del suroeste de Europa con una rica historia y diversidad cultural.",
+    "bandera": "banderas/espana.png",
+    "capital": "Madrid",
+    "población": "48M de personas",
+    "PIB": "1.591.627 M€",
+    "moneda": "Euro €"
+  },
+  "Finlandia": {
+    "descripcion": "Finlandia es un país nórdico conocido por su educación y naturaleza.",
+    "bandera": "banderas/finlandia.png",
+    "capital": "Helsinki",
+    "población": "5,5M de personas",
+    "PIB": "278.444 M€",
+    "moneda": "Euro €"
+  },
+  "Francia": {
+    "descripcion": "Francia es uno de los países más influyentes de Europa occidental.",
+    "bandera": "banderas/francia.png",
+    "capital": "París",
+    "población": "68M de personas",
+    "PIB": "2.782.000 M€",
+    "moneda": "Euro €"
+  },
+  "Irlanda": {
+    "descripcion": "Irlanda es una isla en el Atlántico conocida por su paisaje verde y cultura celta.",
+    "bandera": "banderas/irlanda.png",
+    "capital": "Dublín",
+    "población": "5M de personas",
+    "PIB": "550.000 M€",
+    "moneda": "Euro €"
+  },
+  "Islandia": {
+    "descripcion": "Islandia es una isla volcánica con paisajes únicos en el Atlántico Norte.",
+    "bandera": "banderas/islandia.png",
+    "capital": "Reikiavik",
+    "población": "0,4M de personas",
+    "PIB": "30.919 M€",
+    "moneda": "Corona islandesa"
+  },
+  "Italia": {
+    "descripcion": "Italia es un país del sur de Europa conocido por su arte, historia y gastronomía.",
+    "bandera": "banderas/italia.png",
+    "capital": "Roma",
+    "población": "59M de personas",
+    "PIB": "2.189.000 M€",
+    "moneda": "Euro €"
+  },
+  "Noruega": {
+    "descripcion": "Noruega es un país nórdico famoso por sus fiordos y recursos naturales.",
+    "bandera": "banderas/noruega.png",
+    "capital": "Oslo",
+    "población": "5,5M de personas",
+    "PIB": "446.991 M€",
+    "moneda": "Corona noruega"
+  },
+  "Países Bajos": {
+    "descripcion": "Los Países Bajos son conocidos por sus canales, tulipanes y políticas progresistas.",
+    "bandera": "banderas/paises_bajos.png",
+    "capital": "Ámsterdam",
+    "población": "17,5M de personas",
+    "PIB": "1.000.000 M€",
+    "moneda": "Euro €"
+  },
+  "Portugal": {
+    "descripcion": "Portugal es un país del suroeste europeo con gran herencia marítima.",
+    "bandera": "banderas/portugal.png",
+    "capital": "Lisboa",
+    "población": "10M de personas",
+    "PIB": "285.189 M€",
+    "moneda": "Euro €"
+  },
+  "Suecia": {
+    "descripcion": "Suecia es un país escandinavo con alto nivel de desarrollo humano.",
+    "bandera": "banderas/suecia.png",
+    "capital": "Estocolmo",
+    "población": "10,5M de personas",
+    "PIB": "640.000 M€",
+    "moneda": "Corona sueca"
+  },
+  "Suiza": {
+    "descripcion": "Suiza es un país montañoso de Europa Central famoso por su neutralidad.",
+    "bandera": "banderas/suiza.png",
+    "capital": "Berna",
+    "población": "8,8M de personas",
+    "PIB": "865.620 M€",
+    "moneda": "Franco suizo"
+  }
 }

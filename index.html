@@ -73,12 +73,13 @@
       position: absolute;
       width: 50px;
       height: 20px;
-      top: 92%;
+      bottom: 4vh; /* queda en la parte negra */
       left: 50%;
-      transform: translate(-50%);
+      transform: translateX(-50%);
       cursor: pointer;
       background-color: rgb(73, 73, 73);
       border-radius: 10px;
+      z-index: 5;
     }
     .boton:active {
       transform: translate(-50%) scale(0.9);
@@ -98,12 +99,23 @@
       transform: translate(-50%, -50%) scale(1.5);
     }
 
-    .pestanaPais{
+    .pestanaPais {
       background: white;
-      height: 82%;
-      padding: 2.3em;
+      height: 100%;
+      padding: 2em 1em; /* deja espacio al fondo para no chocar con el botón negro */
       display: flex;
       flex-direction: column;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .cambiarpestana {
+      background: #e0e0e0;
+      height: 50px;
+      margin-top: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
     }
   </style>
 </head>
@@ -143,15 +155,30 @@
   </div>
 
   <div id="movilPais" class="movil" style="display: none;">
-    <div class="pestanaPais">
+    <div id="pestanaPais1" class="pestanaPais">
       <h2 id="tituloPais">País</h2>
       <p id="infoPais">Aquí irá información sobre el país.</p>
-      <div class="boton" onclick="volver()"></div>
+      <div class="cambiarpestana">
+        <button onclick="obtener_datos()">📊 Datos</button>
+        <button onclick="escuchar_audio()">🔊 Audio</button>
+      </div>
+    </div>
+    <div class="boton" onclick="volver()"></div>
+    <div id="datosPais" class="pestanaPais" style="display: none;">
+      <p id="datos">Aqui van los datos</p>
+      <div class="cambiarpestana">
+        <button onclick="abrirPais(paisActual)">🌍 País</button>
+        <button onclick="escuchar_audio()">🔊 Audio</button>
+      </div>
     </div>
   </div>
 
+
+  <!--Audios-->
+  
+
   <audio id="Alemania" src="Alemania.m4a"></audio>
-  <audio id="España" src="España.m4a"></audio>
+  <audio id="España" src="Espana.m4a"></audio>
   <audio id="Italia" src="Italia.m4a"></audio>
   <audio id="Francia" src="Francia.m4a"></audio>
   <audio id="Islandia" src="Islandia.m4a"></audio>
@@ -166,7 +193,11 @@
   <audio id="Austria" src="Austria.m4a"></audio>
   <audio id="Países Bajos" src="Países Bajos.m4a"></audio>
   <audio id="audio2" src="https://www.soundjay.com/buttons/sounds/button-30.mp3"></audio>
+
   <script>
+
+    let paisActual = null;
+
     function verificar() {
       const clave = document.getElementById("clave").value;
       const hash = btoa(clave);
@@ -192,21 +223,20 @@
         console.error("Error al cargar los datos de países:", error);
       });
 
+    // Funciones
     function abrirPais(nombre) {
-      const audio = document.getElementById(nombre);
-      if (audio) audio.play();
+      paisActual = nombre; // Guarda el nombre del país seleccionado
 
       document.getElementById('contenido').style.display = 'none';
+      document.getElementById('pestanaPais1').style.display = 'block';
       document.getElementById('movilPais').style.display = 'block';
+      document.getElementById('datosPais').style.display = 'none';
 
       const pais = datosPaises[nombre];
 
       if (pais) {
         document.getElementById('tituloPais').innerText = nombre;
         document.getElementById('infoPais').innerHTML = `
-          <p><b>Capital:</b> ${pais.capital}</p>
-          <p><b>Población:</b> ${pais.poblacion}</p>
-          <p><b>Moneda:</b> ${pais.moneda}</p>
           <p>${pais.descripcion}</p>
           ${pais.bandera ? `<img src="${pais.bandera}" alt="Bandera de ${nombre}" style="width: 100px;">` : ''}
         `;
@@ -216,10 +246,37 @@
       }
     }
 
+    function obtener_datos() {
+      const pais = datosPaises[paisActual];
+
+      if (pais) {
+        document.getElementById('datos').innerHTML = `
+          <h2><b>Datos de </b> ${paisActual}</h2>
+          <p><b>Capital:</b> ${pais.capital}</p>
+          <p><b>Población:</b> ${pais.población}</p>
+          <p><b>PIB(2024):</b> ${pais.PIB}</p>
+          <p><b>Moneda:</b> ${pais.moneda}</p>
+        `;
+      } else {
+        document.getElementById('datos').innerText = "Datos no disponibles.";
+      }
+
+      document.getElementById('datosPais').style.display = 'block';
+      document.getElementById('pestanaPais1').style.display = 'none';
+    }
+
+
     function volver() {
       document.getElementById('movilPais').style.display = 'none';
+      document.getElementById('datosPais').style.display = 'none'
       document.getElementById('contenido').style.display = 'block';
       document.getElementById('audio2').play()
+    }
+
+    function escuchar_audio() {
+      const audio = document.getElementById(paisActual);
+      if (audio) audio.play();
+      else console.warn("Problemas técnicos con:", paisActual)
     }
 
   </script>
