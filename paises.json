@@ -119,64 +119,164 @@
     "PIB": "865.620 M€",
     "moneda": "Franco suizo"
   },
-  "Reino Unido":{
-    
+  "Bélgica": {
+    "descripción": "País del oeste de Europa, conocido por su arquitectura medieval y su sede de la UE.",
+    "bandera": "banderas/belgica.png",
+    "capital": "Bruselas",
+    "población": "11.9 millones",
+    "PIB": "904 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Croacia":{
-    
+  "Luxemburgo": {
+    "descripción": "Pequeño país europeo, centro financiero con altos ingresos per cápita.",
+    "bandera": "banderas/luxemburgo.png",
+    "capital": "Luxemburgo",
+    "población": "0.7 millones",
+    "PIB": "106.5 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Polonia":{
-    
+  "Mónaco": {
+    "descripción": "Ciudad-estado en la Riviera francesa, famosa por su casino y Fórmula 1.",
+    "bandera": "banderas/monaco.png",
+    "capital": "Mónaco",
+    "población": "0.04 millones",
+    "PIB": "9.24 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Hungría":{
-    
+  "San Marino": {
+    "descripción": "República enclavada en Italia, una de las más antiguas del mundo.",
+    "bandera": "banderas/san_marino.png",
+    "capital": "San Marino",
+    "población": "0.03 millones",
+    "PIB": "1.59 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "República checa":{
-    
+  "Croacia": {
+    "descripción": "País balcánico con costa en el mar Adriático y una rica herencia cultural.",
+    "bandera": "banderas/croacia.png",
+    "capital": "Zagreb",
+    "población": "3.8 millones",
+    "PIB": "107 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Bosnia y Herzegovina":{
-    
+  "Bosnia y Herzegovina": {
+    "descripción": "Nación balcánica con compleja herencia étnica y religiosa.",
+    "bandera": "banderas/bosnia_y_herzegovina.png",
+    "capital": "Sarajevo",
+    "población": "3.2 millones",
+    "PIB": "86 mil millones USD (PPA)",
+    "moneda": "Marco convertible (BAM)"
   },
-  "Letonia":{
-    
+  "Montenegro": {
+    "descripción": "País montañoso del sudeste de Europa con costa en el Adriático.",
+    "bandera": "banderas/montenegro.png",
+    "capital": "Podgorica",
+    "población": "0.6 millones",
+    "PIB": "8.07 mil millones USD (PPA)",
+    "moneda": "Euro (EUR) (uso no oficial)"
   },
-  "Estonia":{
-    
+  "Serbia": {
+    "descripción": "País sin salida al mar en los Balcanes, con rica historia medieval.",
+    "bandera": "banderas/serbia.png",
+    "capital": "Belgrado",
+    "población": "6.6 millones",
+    "PIB": "246 mil millones USD (PPA)",
+    "moneda": "Dinar serbio (RSD)"
   },
-  "Rusia":{
-    
+  "Hungría": {
+    "descripción": "Nación del centro de Europa con una mezcla de influencias orientales y occidentales.",
+    "bandera": "banderas/hungria.png",
+    "capital": "Budapest",
+    "población": "9.5 millones",
+    "PIB": "490 mil millones USD (PPA)",
+    "moneda": "Florín húngaro (HUF)"
   },
-  "Albania":{
-    
+  "Eslovaquia": {
+    "descripción": "País montañoso en Europa Central, miembro de la UE y la eurozona.",
+    "bandera": "banderas/eslovaquia.png",
+    "capital": "Bratislava",
+    "población": "5.4 millones",
+    "PIB": "246 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Rumanía":{
-    
+  "República Checa": {
+    "descripción": "País europeo con arquitectura gótica y rica historia bohemia.",
+    "bandera": "banderas/republica_checa.png",
+    "capital": "Praga",
+    "población": "10.7 millones",
+    "PIB": "299 mil millones USD (PPA)",
+    "moneda": "Corona checa (CZK)"
   },
-  "Ucrania":{
-    
+  "Polonia": {
+    "descripción": "Gran nación europea con economía industrializada y diversidad cultural.",
+    "bandera": "banderas/polonia.png",
+    "capital": "Varsovia",
+    "población": "37.5 millones",
+    "PIB": "1500 mil millones USD (PPA)",
+    "moneda": "Zloty (PLN)"
   },
-  "Lituania":{
-    
+  "Lituania": {
+    "descripción": "País báltico con historia medieval y fuerte identidad nacional.",
+    "bandera": "banderas/lituania.png",
+    "capital": "Vilna",
+    "población": "2.8 millones",
+    "PIB": "69.5 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Bielorrusia":{
-    
+  "Letonia": {
+    "descripción": "Nación báltica con paisajes boscosos y herencia germano-rusa.",
+    "bandera": "banderas/letonia.png",
+    "capital": "Riga",
+    "población": "1.9 millones",
+    "PIB": "87 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Bélgica":{
-    
+  "Estonia": {
+    "descripción": "País báltico altamente digitalizado, miembro de la UE y la OTAN.",
+    "bandera": "banderas/estonia.png",
+    "capital": "Tallin",
+    "población": "1.3 millones",
+    "PIB": "63 mil millones USD (PPA)",
+    "moneda": "Euro (EUR)"
   },
-  "Grecia":{
-    
+  "Ucrania": {
+    "descripción": "Gran país de Europa del Este en conflicto desde 2022, con rica tierra agrícola.",
+    "bandera": "banderas/ucrania.png",
+    "capital": "Kiev",
+    "población": "36 millones",
+    "PIB": "400 mil millones USD (PPA)",
+    "moneda": "Grivna (UAH)"
   },
-  "Serbia":{
-    
+  "Bielorrusia": {
+    "descripción": "País del este europeo con fuerte presencia estatal en la economía.",
+    "bandera": "banderas/bielorrusia.png",
+    "capital": "Minsk",
+    "población": "9.2 millones",
+    "PIB": "200 mil millones USD (PPA)",
+    "moneda": "Rublo bielorruso (BYN)"
   },
-  "Macedonia del norte":{
-    
+  "Moldavia": {
+    "descripción": "Nación del este de Europa con vínculos culturales con Rumanía.",
+    "bandera": "banderas/moldavia.png",
+    "capital": "Chisináu",
+    "población": "2.5 millones",
+    "PIB": "36 mil millones USD (PPA)",
+    "moneda": "Leu moldavo (MDL)"
   },
-  "Eslovaquia":{
-    
+  "Rumanía": {
+    "descripción": "Gran país balcánico, miembro de la UE, con rápido crecimiento económico.",
+    "bandera": "banderas/rumania.png",
+    "capital": "Bucarest",
+    "población": "18.3 millones",
+    "PIB": "800 mil millones USD (PPA)",
+    "moneda": "Leu rumano (RON)"
   },
-  "Bulgaria":{
-    
-  },
+  "Bulgaria": {
+    "descripción": "País del sureste de Europa con costa en el mar Negro.",
+    "bandera": "banderas/bulgaria.png",
+    "capital": "Sofía",
+    "población": "6.4 millones",
+    "PIB": "180 mil millones USD (PPA)",
+    "moneda": "Lev búlgaro (BGN)"
+  }
 }
