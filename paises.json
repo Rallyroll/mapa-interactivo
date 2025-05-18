@@ -1,122 +1,122 @@
 {
   "Alemania": {
-    "descripcion": "Alemania es una potencia económica ubicada en el centro de Europa.",
+    "descripción": "Alemania es una potencia económica ubicada en el centro de Europa.",
     "bandera": "banderas/alemania.png",
     "capital": "Berlín",
     "población": "83M de personas",
-    "PIB": "4.305.260 M€",
+    "PIB": "4.305.260 M$",
     "moneda": "Euro €"
   },
   "Austria": {
-    "descripcion": "Austria es un país alpino en Europa Central conocido por su patrimonio cultural.",
+    "descripción": "Austria es un país alpino en Europa Central conocido por su patrimonio cultural.",
     "bandera": "banderas/austria.png",
     "capital": "Viena",
     "población": "9M de personas",
-    "PIB": "481.940 M€",
+    "PIB": "481.940 M$",
     "moneda": "Euro €"
   },
   "Dinamarca": {
-    "descripcion": "Dinamarca es un país nórdico con un alto nivel de vida.",
+    "descripción": "Dinamarca es un país nórdico con un alto nivel de vida.",
     "bandera": "banderas/dinamarca.png",
     "capital": "Copenhague",
     "población": "6M de personas",
-    "PIB": "396.960 M€",
+    "PIB": "396.960 M$",
     "moneda": "Corona danesa"
   },
   "Eslovenia": {
-    "descripcion": "Eslovenia es un pequeño país montañoso del sureste de Europa.",
+    "descripción": "Eslovenia es un pequeño país montañoso del sureste de Europa.",
     "bandera": "banderas/eslovenia.png",
     "capital": "Liubliana",
     "población": "2M de personas",
-    "PIB": "66.968 M€",
+    "PIB": "66.968 M$",
     "moneda": "Euro €"
   },
   "España": {
-    "descripcion": "España es un país del suroeste de Europa con una rica historia y diversidad cultural.",
+    "descripción": "España es un país del suroeste de Europa con una rica historia y diversidad cultural.",
     "bandera": "banderas/espana.png",
     "capital": "Madrid",
     "población": "48M de personas",
-    "PIB": "1.591.627 M€",
+    "PIB": "1.591.627 M$",
     "moneda": "Euro €"
   },
   "Finlandia": {
-    "descripcion": "Finlandia es un país nórdico conocido por su educación y naturaleza.",
+    "descripción": "Finlandia es un país nórdico conocido por su educación y naturaleza.",
     "bandera": "banderas/finlandia.png",
     "capital": "Helsinki",
     "población": "5,5M de personas",
-    "PIB": "278.444 M€",
+    "PIB": "278.444 M$",
     "moneda": "Euro €"
   },
   "Francia": {
-    "descripcion": "Francia es uno de los países más influyentes de Europa occidental.",
+    "descripción": "Francia es uno de los países más influyentes de Europa occidental.",
     "bandera": "banderas/francia.png",
     "capital": "París",
     "población": "68M de personas",
-    "PIB": "2.782.000 M€",
+    "PIB": "2.782.000 M$",
     "moneda": "Euro €"
   },
   "Irlanda": {
-    "descripcion": "Irlanda es una isla en el Atlántico conocida por su paisaje verde y cultura celta.",
+    "descripción": "Irlanda es una isla en el Atlántico conocida por su paisaje verde y cultura celta.",
     "bandera": "banderas/irlanda.png",
     "capital": "Dublín",
     "población": "5M de personas",
-    "PIB": "550.000 M€",
+    "PIB": "550.000 M$",
     "moneda": "Euro €"
   },
   "Islandia": {
-    "descripcion": "Islandia es una isla volcánica con paisajes únicos en el Atlántico Norte.",
+    "descripción": "Islandia es una isla volcánica con paisajes únicos en el Atlántico Norte.",
     "bandera": "banderas/islandia.png",
     "capital": "Reikiavik",
     "población": "0,4M de personas",
-    "PIB": "30.919 M€",
+    "PIB": "30.919 M$",
     "moneda": "Corona islandesa"
   },
   "Italia": {
-    "descripcion": "Italia es un país del sur de Europa conocido por su arte, historia y gastronomía.",
+    "descripción": "Italia es un país del sur de Europa conocido por su arte, historia y gastronomía.",
     "bandera": "banderas/italia.png",
     "capital": "Roma",
     "población": "59M de personas",
-    "PIB": "2.189.000 M€",
+    "PIB": "2.189.000 M$",
     "moneda": "Euro €"
   },
   "Noruega": {
-    "descripcion": "Noruega es un país nórdico famoso por sus fiordos y recursos naturales.",
+    "descripción": "Noruega es un país nórdico famoso por sus fiordos y recursos naturales.",
     "bandera": "banderas/noruega.png",
     "capital": "Oslo",
     "población": "5,5M de personas",
-    "PIB": "446.991 M€",
+    "PIB": "446.991 M$",
     "moneda": "Corona noruega"
   },
   "Países Bajos": {
-    "descripcion": "Los Países Bajos son conocidos por sus canales, tulipanes y políticas progresistas.",
+    "descripción": "Los Países Bajos son conocidos por sus canales, tulipanes y políticas progresistas.",
     "bandera": "banderas/paises_bajos.png",
     "capital": "Ámsterdam",
     "población": "17,5M de personas",
-    "PIB": "1.000.000 M€",
+    "PIB": "1.000.000 M$",
     "moneda": "Euro €"
   },
   "Portugal": {
-    "descripcion": "Portugal es un país del suroeste europeo con gran herencia marítima.",
+    "descripción": "Portugal es un país del suroeste europeo con gran herencia marítima.",
     "bandera": "banderas/portugal.png",
     "capital": "Lisboa",
     "población": "10M de personas",
-    "PIB": "285.189 M€",
+    "PIB": "285.189 M$",
     "moneda": "Euro €"
   },
   "Suecia": {
-    "descripcion": "Suecia es un país escandinavo con alto nivel de desarrollo humano.",
+    "descripción": "Suecia es un país escandinavo con alto nivel de desarrollo humano.",
     "bandera": "banderas/suecia.png",
     "capital": "Estocolmo",
     "población": "10,5M de personas",
-    "PIB": "640.000 M€",
+    "PIB": "640.000 M$",
     "moneda": "Corona sueca"
   },
   "Suiza": {
-    "descripcion": "Suiza es un país montañoso de Europa Central famoso por su neutralidad.",
+    "descripción": "Suiza es un país montañoso de Europa Central famoso por su neutralidad.",
     "bandera": "banderas/suiza.png",
     "capital": "Berna",
     "población": "8,8M de personas",
-    "PIB": "865.620 M€",
+    "PIB": "865.620 M$",
     "moneda": "Franco suizo"
   },
   "Bélgica": {
@@ -124,47 +124,47 @@
     "bandera": "banderas/belgica.png",
     "capital": "Bruselas",
     "población": "11.9 millones",
-    "PIB": "904 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "904.000 M$",
+    "moneda": "Euro €"
   },
   "Luxemburgo": {
     "descripción": "Pequeño país europeo, centro financiero con altos ingresos per cápita.",
     "bandera": "banderas/luxemburgo.png",
     "capital": "Luxemburgo",
     "población": "0.7 millones",
-    "PIB": "106.5 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "106.500 M$",
+    "moneda": "Euro €"
   },
   "Mónaco": {
     "descripción": "Ciudad-estado en la Riviera francesa, famosa por su casino y Fórmula 1.",
     "bandera": "banderas/monaco.png",
     "capital": "Mónaco",
     "población": "0.04 millones",
-    "PIB": "9.24 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "9.240 M$",
+    "moneda": "Euro €"
   },
   "San Marino": {
     "descripción": "República enclavada en Italia, una de las más antiguas del mundo.",
     "bandera": "banderas/san_marino.png",
     "capital": "San Marino",
     "población": "0.03 millones",
-    "PIB": "1.59 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "1.590 M$",
+    "moneda": "Euro €"
   },
   "Croacia": {
     "descripción": "País balcánico con costa en el mar Adriático y una rica herencia cultural.",
     "bandera": "banderas/croacia.png",
     "capital": "Zagreb",
     "población": "3.8 millones",
-    "PIB": "107 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "107.000 M$",
+    "moneda": "Euro €"
   },
   "Bosnia y Herzegovina": {
     "descripción": "Nación balcánica con compleja herencia étnica y religiosa.",
     "bandera": "banderas/bosnia_y_herzegovina.png",
     "capital": "Sarajevo",
     "población": "3.2 millones",
-    "PIB": "86 mil millones USD (PPA)",
+    "PIB": "86.000 M$",
     "moneda": "Marco convertible (BAM)"
   },
   "Montenegro": {
@@ -172,15 +172,15 @@
     "bandera": "banderas/montenegro.png",
     "capital": "Podgorica",
     "población": "0.6 millones",
-    "PIB": "8.07 mil millones USD (PPA)",
-    "moneda": "Euro (EUR) (uso no oficial)"
+    "PIB": "8.070 M$",
+    "moneda": "Euro € (uso no oficial)"
   },
   "Serbia": {
     "descripción": "País sin salida al mar en los Balcanes, con rica historia medieval.",
     "bandera": "banderas/serbia.png",
     "capital": "Belgrado",
     "población": "6.6 millones",
-    "PIB": "246 mil millones USD (PPA)",
+    "PIB": "246.000 M$",
     "moneda": "Dinar serbio (RSD)"
   },
   "Hungría": {
@@ -188,7 +188,7 @@
     "bandera": "banderas/hungria.png",
     "capital": "Budapest",
     "población": "9.5 millones",
-    "PIB": "490 mil millones USD (PPA)",
+    "PIB": "490.000 M$",
     "moneda": "Florín húngaro (HUF)"
   },
   "Eslovaquia": {
@@ -196,15 +196,15 @@
     "bandera": "banderas/eslovaquia.png",
     "capital": "Bratislava",
     "población": "5.4 millones",
-    "PIB": "246 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "246.000 M$",
+    "moneda": "Euro €"
   },
   "República Checa": {
     "descripción": "País europeo con arquitectura gótica y rica historia bohemia.",
     "bandera": "banderas/republica_checa.png",
     "capital": "Praga",
     "población": "10.7 millones",
-    "PIB": "299 mil millones USD (PPA)",
+    "PIB": "299.000 M$",
     "moneda": "Corona checa (CZK)"
   },
   "Polonia": {
@@ -212,7 +212,7 @@
     "bandera": "banderas/polonia.png",
     "capital": "Varsovia",
     "población": "37.5 millones",
-    "PIB": "1500 mil millones USD (PPA)",
+    "PIB": "1.500.000 M$",
     "moneda": "Zloty (PLN)"
   },
   "Lituania": {
@@ -220,31 +220,31 @@
     "bandera": "banderas/lituania.png",
     "capital": "Vilna",
     "población": "2.8 millones",
-    "PIB": "69.5 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "69.500 M$",
+    "moneda": "Euro €"
   },
   "Letonia": {
     "descripción": "Nación báltica con paisajes boscosos y herencia germano-rusa.",
     "bandera": "banderas/letonia.png",
     "capital": "Riga",
     "población": "1.9 millones",
-    "PIB": "87 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "87.000 M$",
+    "moneda": "Euro €"
   },
   "Estonia": {
     "descripción": "País báltico altamente digitalizado, miembro de la UE y la OTAN.",
     "bandera": "banderas/estonia.png",
     "capital": "Tallin",
     "población": "1.3 millones",
-    "PIB": "63 mil millones USD (PPA)",
-    "moneda": "Euro (EUR)"
+    "PIB": "63.000 M$",
+    "moneda": "Euro €"
   },
   "Ucrania": {
     "descripción": "Gran país de Europa del Este en conflicto desde 2022, con rica tierra agrícola.",
     "bandera": "banderas/ucrania.png",
     "capital": "Kiev",
     "población": "36 millones",
-    "PIB": "400 mil millones USD (PPA)",
+    "PIB": "400.000 M$",
     "moneda": "Grivna (UAH)"
   },
   "Bielorrusia": {
@@ -252,23 +252,23 @@
     "bandera": "banderas/bielorrusia.png",
     "capital": "Minsk",
     "población": "9.2 millones",
-    "PIB": "200 mil millones USD (PPA)",
+    "PIB": "200.000 M$",
     "moneda": "Rublo bielorruso (BYN)"
   },
-  "Moldavia": {
-    "descripción": "Nación del este de Europa con vínculos culturales con Rumanía.",
-    "bandera": "banderas/moldavia.png",
-    "capital": "Chisináu",
-    "población": "2.5 millones",
-    "PIB": "36 mil millones USD (PPA)",
-    "moneda": "Leu moldavo (MDL)"
+  "Reino Unido": {
+    "descripción": "El Reino Unido es una nación insular compuesta por Inglaterra, Escocia, Gales e Irlanda del Norte.",
+    "bandera": "banderas/reino_unido.png",
+    "capital": "Londres",
+    "población": "67 millones",
+    "PIB": "3.400 mil millones USD (PPA)",
+    "moneda": "Libra esterlina (GBP)"
   },
   "Rumanía": {
     "descripción": "Gran país balcánico, miembro de la UE, con rápido crecimiento económico.",
     "bandera": "banderas/rumania.png",
     "capital": "Bucarest",
     "población": "18.3 millones",
-    "PIB": "800 mil millones USD (PPA)",
+    "PIB": "800.000 M$",
     "moneda": "Leu rumano (RON)"
   },
   "Bulgaria": {
@@ -276,7 +276,7 @@
     "bandera": "banderas/bulgaria.png",
     "capital": "Sofía",
     "población": "6.4 millones",
-    "PIB": "180 mil millones USD (PPA)",
+    "PIB": "180.000 M$",
     "moneda": "Lev búlgaro (BGN)"
   }
 }
