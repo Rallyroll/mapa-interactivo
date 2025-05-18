@@ -100,9 +100,9 @@
     }
 
     .pestanaPais {
-      background: white;
+      background: rgb(248, 248, 248);
       height: 100%;
-      padding: 2em 1em; /* deja espacio al fondo para no chocar con el botón negro */
+      padding: 2em 1em;
       display: flex;
       flex-direction: column;
       box-sizing: border-box;
@@ -137,7 +137,7 @@
       <img src="Mapa europa2.png" alt="Mapa de Europa">
     </div>
     <div class="punto" style="top: 75%; left:16%" onclick="abrirPais('España')"></div>
-    <div class="punto" style="top: 71%; left:58%" onclick="abrirPais('Italia')"></div>
+    <div class="punto" style="top: 72%; left:58%" onclick="abrirPais('Italia')"></div>
     <div class="punto" style="top: 75%; left:02%" onclick="abrirPais('Portugal')"></div>
     <div class="punto" style="top: 55%; left:56%" onclick="abrirPais('Alemania')"></div>
     <div class="punto" style="top: 60%; left:36%" onclick="abrirPais('Francia')"></div>
@@ -151,6 +151,26 @@
     <div class="punto" style="top: 32%; left:80%" onclick="abrirPais('Finlandia')"></div>
     <div class="punto" style="top: 50%; left:45%" onclick="abrirPais('Países Bajos')"></div>
     <div class="punto" style="top: 44%; left:54%" onclick="abrirPais('Dinamarca')"></div>
+    <div class="punto" style="top: 54%; left:42%" onclick="abrirPais('Bélgica')"></div>
+    <div class="punto" style="top: 56%; left:46%" onclick="abrirPais('Luxemburgo')"></div>
+    <div class="punto" style="top: 70%; left:42%" onclick="abrirPais('Mónaco')"></div>
+    <div class="punto" style="top: 68%; left:60%" onclick="abrirPais('San Marino')"></div>
+    <div class="punto" style="top: 65%; left:72%" onclick="abrirPais('Croacia')"></div>
+    <div class="punto" style="top: 68%; left:75%" onclick="abrirPais('Bosnia y Herzegovina')"></div>
+    <div class="punto" style="top: 71%; left:79%" onclick="abrirPais('Montenegro')"></div>
+    <div class="punto" style="top: 68%; left:83%" onclick="abrirPais('Serbia')"></div>
+    <div class="punto" style="top: 61%; left:80%" onclick="abrirPais('Hungria')"></div>
+    <div class="punto" style="top: 59%; left:75%" onclick="abrirPais('Eslovaquia')"></div>
+    <div class="punto" style="top: 56%; left:65%" onclick="abrirPais('Republica Checa')"></div>
+    <div class="punto" style="top: 50%; left:75%" onclick="abrirPais('Polonia')"></div>
+    <div class="punto" style="top: 44%; left:82%" onclick="abrirPais('Lituania')"></div>
+    <div class="punto" style="top: 41%; left:85%" onclick="abrirPais('Letonia')"></div>
+    <div class="punto" style="top: 38%; left:85%" onclick="abrirPais('Estonia')"></div>
+    <div class="punto" style="top: 55%; left:90%" onclick="abrirPais('Ucrania')"></div>
+    <div class="punto" style="top: 47%; left:90%" onclick="abrirPais('Bielorrusia')"></div>
+    <div class="punto" style="top: 52%; left:32%" onclick="abrirPais('Reino Unido')"></div>
+    <div class="punto" style="top: 65%; left:90%" onclick="abrirPais('Rumanía')"></div>
+    <div class="punto" style="top: 70%; left:92%" onclick="abrirPais('Bulgaria')"></div>
     <div class="boton" onclick="document.getElementById('audio2').play()"></div>
   </div>
 
@@ -237,7 +257,7 @@
       if (pais) {
         document.getElementById('tituloPais').innerText = nombre;
         document.getElementById('infoPais').innerHTML = `
-          <p>${pais.descripcion}</p>
+          <p>${pais.descripción}</p>
           ${pais.bandera ? `<img src="${pais.bandera}" alt="Bandera de ${nombre}" style="width: 100px;">` : ''}
         `;
       } else {
@@ -252,10 +272,10 @@
       if (pais) {
         document.getElementById('datos').innerHTML = `
           <h2><b>Datos de </b> ${paisActual}</h2>
-          <p><b>🌆 Capital:</b> ${pais.capital}</p>
-          <p><b>🧑‍🧑‍🧒‍🧒 Población:</b> ${pais.población}</p>
-          <p><b>📊 PIB(2024):</b> ${pais.PIB}</p>
-          <p><b>💰 Moneda:</b> ${pais.moneda}</p>
+          <p><b>Capital:</b> ${pais.capital}</p>
+          <p><b>Población:</b> ${pais.población}</p>
+          <p><b>PIB(2024):</b> ${pais.PIB}</p>
+          <p><b>Moneda:</b> ${pais.moneda}</p>
         `;
       } else {
         document.getElementById('datos').innerText = "Datos no disponibles.";
